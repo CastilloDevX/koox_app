@@ -12,6 +12,9 @@ dependencies:
 
   # Iconos de iOS
   cupertino_icons: ^1.0.2
+  
+  # Detectar plataforma
+  universal_io: ^2.2.2
 
   # Conexión HTTP con la API de Koox
   http: ^1.2.0
@@ -53,4 +56,5 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/image1.jpeg
+    - assets/
+    - assets/icons/
