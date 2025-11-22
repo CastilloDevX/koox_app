@@ -9,8 +9,40 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  # Iconos de iOS
   cupertino_icons: ^1.0.2
-  http: ^1.2.0  
+
+  # Conexión HTTP con la API de Koox
+  http: ^1.2.0
+
+  # Mapas (OpenStreetMap)
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+
+  # Geolocalización (GPS del usuario)
+  geolocator: ^10.0.0
+
+  # Convertir texto → coordenadas
+  geocoding: ^2.1.0
+
+  # Navegación moderna
+  go_router: ^13.0.1
+
+  # Estado global moderno
+  flutter_riverpod: ^2.4.0
+
+  # Para íconos SVG (camiones, marcadores)
+  flutter_svg: ^2.0.9
+
+  # Modals modernos (bottom sheet)
+  modal_bottom_sheet: ^3.0.0
+
+  # Permisos del sistema (GPS)
+  permission_handler: ^11.1.0
+
+  # Animaciones Material
+  animations: ^2.0.8
 
 dev_dependencies:
   flutter_test:
